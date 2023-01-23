@@ -1,0 +1,80 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>Events Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="events">
+                <h2>Update Your Skills</h2>
+                <form action="search.php" method="post" id="events">
+                    <tr>
+                        <lable>NAME:</lable>
+                        <br>
+                         <input type ="text" name="name" placeholder="Enter your name" id="name" required>
+                         <br><br>
+                    
+                        <lable>USN:</lable><br>
+                         <input type ="text" name="usn" value="4GW21" id="name" required><br><br>
+        
+                         <lable>BRANCH:</lable><br>
+                         <select name="branch" placeholder="Dept" id="name" required>
+                         <option value="cse">CSE</option>
+                         <option value="ise">ISE</option>
+                         <option value="csaiml" selected>CS-AIML</option>
+                         <option value="aids">AIDS</option>
+                         <option value="ece">ECE</option>
+                         <option value="eee">EEE</option></tr></select>
+                         <br><br>
+
+                         <lable>SEMESTER:</lable><br>
+                         <input type ="text" name="sem"  id="name" required>
+                         <br><br>
+                        
+                         <lable>EMAIL ID:</lable><br>
+                         <input type ="text" name="eid" placeholder="email id" id="name"  required>
+                         <br><br>
+
+                         <lable>CONTACT:</lable><br>
+                         <input type ="text" name="phone" placeholder="phone no." id="name" required>
+                         <br><br>
+
+                         <lable>EVENT NAME:</lable><br>
+                         <input type ="text" name="event" placeholder="Course name" id="name" required>
+                         <br><br>
+
+                         <lable>STREAM:</lable><br>
+                         <input type ="text" name="stream" placeholder="Subject" id="name" equired>
+                         <br><br>
+
+                         <lable>DATE:</lable><br>
+                         <input type ="date" name="date"  required>
+                         <br><br>
+
+                         <lable>Course Status:</lable>
+                         <br>
+                         &nbsp;&nbsp;&nbsp;
+                         <input type="radio" name="status" id="completed">
+                         &nbsp;
+                         <span id="completed">COMPLETED</span>
+
+                         &nbsp;&nbsp;&nbsp;
+                         <input type="radio" name="status" id="learning">
+                         &nbsp;
+                         <span id="learning">LEARNING</span>
+                         <br><br>
+
+                         <p>Upload Certificate here (optional)</p>
+                         <input type="file" id="myFile" name="filename">
+                        
+                        <tr>
+                        <td><input type="submit" name="submit" value="SUBMIT" id="submit" ></td>
+                        <td><input type="RESET" name="reset" value="CLEAR" id="clear" ></td>
+                        </tr>
+                        
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
